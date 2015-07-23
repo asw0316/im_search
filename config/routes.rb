@@ -1,5 +1,5 @@
 PjImSearch::Application.routes.draw do
-  get "condition/radio_button"
+  get "condition/radio_button" => 'condition#radio_button'
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
